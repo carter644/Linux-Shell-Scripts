@@ -1,0 +1,17 @@
+# Python While Loop - Incrementing a Count Variable Lab - Scratch Pad
+2	# Use this Replit to try some code... Use it as a scratch pad.
+3	
+4	
+5	# Add a Comment Here to describe/explain what you are doing
+6	
+7	# Code Started Here:
+8	def main():
+9	    print("Starting While Loop - Print Count Variable")
+10	    # Enter Your Code Here:
+11	    count = 0
+12	    while(count < 10):
+13	        print(count)
+14	        count += 1
+15	    print("Ending While Loop")
+16	
+17	main()
