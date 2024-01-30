@@ -1,0 +1,26 @@
+# Your Code Starts Here:
+# Enter Your Code Here:
+
+def main():
+    print("Starting Code Challenge")
+    # Print The User Input
+    s_user = input("enter a number from 0-9")
+    s_user = int(s_user)
+    print(s_user)
+  
+  
+    print("Starting While Loop - Print Count Variable")
+    counter = 0
+    while (counter < 10):
+        if counter == s_user :
+            print("counter ",counter,"is = to", s_user, "User input")
+        else :
+            print(counter)
+       
+        counter += 1
+    
+    
+    print("Ending While Loop")
+    print("Ending Code Challenge")
+
+main()
