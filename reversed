@@ -1,0 +1,23 @@
+alph = ["a", "b", "c", "d"]
+
+ralph = reversed(alph)
+
+for x in ralph:
+  print(x)
+
+alph = ["1", "7"]
+
+ralph = reversed(alph)
+
+for y in ralph: 																			print(y)
+
+alph = ["9", "2"]
+
+ralph = reversed(alph)
+
+for w in ralph: 																			print(w)
+print (y + w)
+y = int(y)
+w = int(w)
+
+print (2*(y + w))
