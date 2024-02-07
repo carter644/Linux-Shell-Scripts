@@ -1,0 +1,17 @@
+def main():
+  print("buttface")
+  # Declare Any main() Variables - (Not Global)
+
+  print("cool man")
+  # Enter Your Code Here:
+  print('really cool man:')
+  x = 42
+  print(x)
+  y = x + 1
+  print(y)
+  print("ohhhhhhhhhhhh")
+  print("ahhhhhhhhhhhh")
+  for  my_variable in [2, 2, 3, 4, 2, 5, 3]:
+    print (my_variable)
+  print ('finished')
+main()
