@@ -1,0 +1,23 @@
+def greet(lang):
+  if lang == 'es':
+    return'Hola'
+  elif lang == 'fr':
+    return'Bonjour'
+  elif lang == 've':
+    return 'Xin chào'
+  elif lang == 'ja':
+    return'Konnichiwa'
+  else:
+    return'Hello'
+
+def main():
+  print ('hello what is your name and language')
+  print(greet('en'),'Glenn')
+  print(greet('fr'),'Sabine')
+  print(greet('es'),'Carlos')
+  print(greet('ve'),'Dean')
+  print(greet('ja'),'Nicky')
+  print('hi')
+  
+
+main()
