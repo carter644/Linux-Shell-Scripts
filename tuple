@@ -1,0 +1,36 @@
+def sum_and_avg(x, y, z):
+  s = x + y + z
+  a = s/3
+  return(s, a)
+x = sum_and_avg(3, 8, 5)
+print(x)
+print(x[0])
+print(x[1])
+(S, A) = sum_and_avg(3, 8, 5)
+print('Sum =', S)
+print('Avg =', A)
+
+def sum_and_avg2(f_tuple):
+  x,y,z = f_tuple
+  s = x + y + z
+  a = s/3
+  return(s, a)
+  
+my_tuple = (3,56,8)
+(S, A) = sum_and_avg2(my_tuple)
+print('Sum =', S)
+print('Avg =', A)
+
+def sum_and_avg3(f_tuple):
+  s = 0
+  for x in f_tuple:
+    s = x + s
+  d = len (f_tuple)
+  a = s/d
+  return(s, a)
+
+my_tuple = (3,5,8,7)
+(S, A) = sum_and_avg3(my_tuple)
+print('Sum =', S)
+print('Avg =', A)
+  
