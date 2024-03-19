@@ -1,0 +1,7 @@
+pas = input("Enter username:")
+x = pas.find("123")
+print(x)
+if x > -1 :
+	print("weak password")
+else:
+	print("good password")
