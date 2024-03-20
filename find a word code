@@ -1,0 +1,10 @@
+sent = input("give me a sentence: ")
+word = input("give me a word: ")
+print(sent)
+print(word)
+x = sent.find(word)
+
+while x > -1 :
+    print(x)
+    print("found it")
+    x = sent.find((word),x+1)
